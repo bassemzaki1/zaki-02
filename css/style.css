@@ -1,0 +1,284 @@
+/* Start Main Style */
+
+body {font-family: 'Tajawal', sans-serif;direction: rtl;text-align: right}
+
+.section {padding-top: 80px;margin-bottom: 50px}
+
+
+/* End Main Style */
+
+
+/****** Start Overwrite Bootstrap ******/
+
+.navbar .navbar-brand {font-weight: bold;font-size: 28px;cursor: help}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {color: #FFF}
+
+.navbar-dark .navbar-nav .nav-link {color: #FFF;text-align: center}
+
+.navbar-dark .navbar-nav .nav-link:focus {color:#FFF}
+.navbar-dark .navbar-nav .nav-link:hover {color: #FFF;border-bottom: 1px solid #FFF}
+
+/* Overwrite carousel */
+
+.info {position: relative;z-index: 3}
+
+.overlay {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    z-index: 2
+}
+
+.info .info-img {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/bg-main-01.jpg);
+    background-size: cover;
+    position: relative
+}
+
+.info .info-img .info-desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3
+}
+
+.info .info-img .info-desc h1 {background-color: #FFF;padding: 20px 30px;cursor: crosshair}
+
+.info .info-img .info-desc p {
+    font-size: 30px;
+    background-color: #FFF;
+    padding: 20px 30px;
+    cursor: crosshair
+}
+
+/****** End Overwrite Bootstrap ******/
+
+/* Start Section Our Services */
+
+.our-services .services .service-one {
+    margin: auto;
+    width: 80%;
+	max-height: 130px;
+    line-height: 130px;
+    cursor: crosshair;
+    -webkit-box-shadow:0 0 20px 1px #d8dde2;
+       -moz-box-shadow:0 0 20px 1px #d8dde2;
+         -o-box-shadow:0 0 20px 1px #d8dde2;
+            box-shadow:0 0 20px 1px #d8dde2;
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+             transition: all .2s ease-in-out
+}
+.our-services .services .service-one:hover {
+    -webkit-transform: translateY(-6px);
+       -moz-transform: translateY(-6px);
+         -o-transform: translateY(-6px);
+            transform: translateY(-6px);
+    -webkit-box-shadow: 0 0 16px 5px #c7c3c3;
+       -moz-box-shadow: 0 0 16px 5px #c7c3c3;
+         -o-box-shadow: 0 0 16px 5px #c7c3c3;
+            box-shadow: 0 0 16px 5px #c7c3c3;
+}
+
+
+.our-services .services .service-one p {color: #000;font-size: 21px;white-space: nowrap}
+
+/* End Section Our Services */
+
+/* Start Our Projects Section */
+
+.our-projects .projects {
+    margin: auto;
+    width: 320px;
+    height: 320px;
+    position: relative;
+    background-image: url('../images/project-show.png');
+    background-repeat: no-repeat;
+    transition: all .3s ease-in-out
+}
+
+.our-projects .projects:hover {transform: scale(1.1);z-index:2}
+
+.our-projects .projects .project-one a {
+    position: absolute;
+    top: 44px;
+    left: 14px;
+    width: 292px;
+    height: 166px;
+    cursor: -webkit-zoom-in;
+    cursor:    -moz-zoom-in;
+    cursor:      -o-zoom-in;
+    cursor:         zoom-in;
+    overflow: hidden
+}
+
+.our-projects .projects .project-one img {margin-top: 0;transition: all 3s linear}
+
+.our-projects .projects .project-one .img-one:hover {margin-top: -273px}
+
+.our-projects .projects .project-one .img-two:hover {margin-top: -355px}
+
+/* End Our Projects Section */
+
+/* Start Our Features Section */
+
+.our-features .btn:not(:disabled):not(.disabled) {
+    cursor: s-resize
+}
+
+.our-features i {
+    font-size: 45px;
+    padding: 18px;
+    cursor: -webkit-zoom-in;
+    cursor:    -moz-zoom-in;
+    cursor:      -o-zoom-in;
+    cursor:         zoom-in;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.our-features i:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3)
+}
+
+.our-features .card {
+    display: inline-block;
+    width: 100%
+}
+
+
+/*.our-features img:hover {transform: rotate(90deg)}*/
+
+/* End Our Features Section */
+
+/* Start Our Skills Section */
+
+.our-skills {padding-top: 50px ;padding-bottom: 90px}
+
+.our-skills h2 {color: #FFF;margin-bottom: 80px;cursor: help}
+
+.our-skills div {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background-color: #fff;
+    margin-right: 60px;
+    border: 1px solid #333;
+    cursor: crosshair;
+    box-shadow: 0 0 20px 0px #483838,
+                inset 0 0 7px 1px #585050;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-skills div:first-of-type {margin-right: 0}
+
+.our-skills div:hover {box-shadow: inset 0 0 7px 1px black}
+
+.our-skills div span {
+    display: inline-block;
+    transform: rotate(-45deg);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #646f79
+}
+
+@media (max-width: 575.98px) { 
+    .our-skills div {
+        margin-right: 0;
+        width: 100px
+    }
+}
+
+/* End Our Skills Section */
+
+/* Start About Us Section */
+
+.about-us {margin: 0  auto 50px}
+
+.about-us h2 {margin-bottom: 25px;}
+
+/* End About Us Section */
+
+/* Start Footer Section */
+
+footer {background-color: #77808e}
+
+footer .info {padding: 8px 0;z-index: 0}
+
+footer .info span:first-child {color: #FFF;margin-left: 8px}
+
+footer .info span:nth-child(2) {
+    display: inline-block;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #3b5998;
+    color: #FFF;
+    cursor: pointer
+}
+
+footer .info span:last-child {
+    display: inline-block;
+    background-color: #FFF;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer
+}
+
+footer .info a {color: #FFF;text-decoration: none}
+
+/* End Footer Section */
+
+/* Start Back To Top */
+
+.back-to-top {
+    position: fixed;
+    display: inline-block;
+    right: 10px;
+    bottom: 10px;
+    padding: 4px 10px 1px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: #FFF;
+    z-index: 2;
+}
+
+/* End Back To Top */
+
+
+/* Start My Framework */
+
+.h-style {color: #007bff;margin-bottom: 80px;cursor: help}
+
+/* End My Framework */
