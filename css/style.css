@@ -191,10 +191,10 @@ body {font-family: 'Tajawal', sans-serif;direction: rtl;text-align: right}
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
 }
 
-.our-skills div:first-of-type {margin-right: 0}
+.our-skills div:first-of-type {margin-right: 22px}
 
 .our-skills div:hover {box-shadow: inset 0 0 7px 1px black}
 
@@ -210,8 +210,12 @@ body {font-family: 'Tajawal', sans-serif;direction: rtl;text-align: right}
 @media (max-width: 575.98px) { 
     .our-skills div {
         margin-right: 0;
-        width: 100px
+        width: 120px
     }
+    
+    .our-skills .br-line {
+    display: block
+    }   
 }
 
 /* End Our Skills Section */
